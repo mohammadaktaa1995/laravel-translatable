@@ -64,5 +64,5 @@ ex:translate('hello_word',Translatable::getCurrentLocale(),'Hello World!);
 After all of this you will be able to use it
 go to this url:
 ``` php
- http://localhost/public/{lang}/translates
+ http://localhost/your-project-name/public/{lang}/translates
  ```
