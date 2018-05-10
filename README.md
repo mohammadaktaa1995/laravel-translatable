@@ -41,7 +41,7 @@ resources\lang\{lang}\words.php,
 
 The words file is if you want to use php helper function ```php trans('words.example')```.
 
-you should put in ```php app.config``` file.
+you should put in ` app.config` file.
 ```php
 App\Providers\ComposerServiceProvider::class
 ```
@@ -59,7 +59,7 @@ translate($word,$lang,$default);
 ex:translate('hello_word',Translatable::getCurrentLocale(),'Hello World!);
 ```
 
-```php $default``` the word appear if the word you entered doesn't exist.
+`$default` the word appear if the word you entered doesn't exist.
 
 After all of this you will be able to use it
 go to this url:
