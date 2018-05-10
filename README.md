@@ -39,7 +39,7 @@ database\migrations\2018_05_09_124224_create_translates_table.php,
 
 resources\lang\{lang}\words.php,
 
-The words file is if you want to use php helper function ```php trans('words.example')```.
+The words file is if you want to use php helper function ` trans('words.example')`.
 
 you should put in ` app.config` file.
 ```php
