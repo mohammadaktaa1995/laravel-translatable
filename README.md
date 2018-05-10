@@ -60,3 +60,9 @@ ex:translate('hello_word',Translatable::getCurrentLocale(),'Hello World!);
 ```
 
 ```php $default``` the word appear if the word you entered doesn't exist.
+
+After all of this you will be able to use it
+go to this url:
+``` php
+ http://localhost/public/{lang}/translates
+ ```
