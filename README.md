@@ -28,18 +28,20 @@ $ php artisan make:translate-init Example --langs=en,ar --dir=Models
 ```
 
 The file generated is:
-App\Helper\Helpers.php,
-App\Models\Translate.php,
-App\Providers\ComposerServiceProvider.php,
-database\migrations\2018_05_09_124224_create_translates_table.php,
-resources\lang\{lang}\words.php,
-The words file is if you want to use php helper function ```php 
-trans('words.example')
-```.
 
-you should put in ```php 
-app.config
-``` file.
+App\Helper\Helpers.php,
+
+App\Models\Translate.php,
+
+App\Providers\ComposerServiceProvider.php,
+
+database\migrations\2018_05_09_124224_create_translates_table.php,
+
+resources\lang\{lang}\words.php,
+
+The words file is if you want to use php helper function ```php trans('words.example')```.
+
+you should put in ```php app.config``` file.
 ```php
 App\Providers\ComposerServiceProvider::class
 ```
@@ -57,7 +59,4 @@ translate($word,$lang,$default);
 ex:translate('hello_word',Translatable::getCurrentLocale(),'Hello World!);
 ```
 
-```php
-$default
-``` 
-the word appear if the word you entered doesn't exist.
+```php $default``` the word appear if the word you entered doesn't exist.
