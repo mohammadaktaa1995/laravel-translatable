@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Http\ViewComposer;
+
+/**
+ * Created by Aktaa.
+ * User: Mohammad Aktaa
+ * Date: 12/31/2016
+ * Time: 10:33 PM
+ */
+use MODELNAMESPACE;
+use Illuminate\Contracts\View\View;
+use LaravelLocalization;
+
+class TranslateComposer
+{
+    /**
+     * @param View $view
+     */
+    public function compose(View $view)
+    {
+        $lang = LaravelLocalization::getCurrentLocale();
+        $translates = MODELNAME::all();
+        foreach ($translates as $translate) {
+            $view->with('_'.$translate->word, $translate['text_' . $lang]);
+        }
+    }
+}
