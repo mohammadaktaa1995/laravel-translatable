@@ -50,6 +50,8 @@ and
 Aktaa\translatable\TranslatableServiceProvide::class  
 ```
 Facade:
+
+
 ```php
    'Translatable' => Aktaa\translatable\Facades\Translatable::class,
    ```
@@ -66,3 +68,6 @@ go to this url:
 ``` php
  http://localhost/your-project-name/public/{lang}/translates
  ```
+
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
