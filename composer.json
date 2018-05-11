@@ -1,7 +1,7 @@
 {
     "name": "aktaa/laravel-translate",
     "type": "package",
-    "description": ":package_description",
+    "description": "Package for Laravel translate",
     "keywords": [
         "translate",
         "Aktaa"
