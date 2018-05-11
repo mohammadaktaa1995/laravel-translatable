@@ -70,4 +70,8 @@ go to this url:
  ```
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/mohammadaktaa1995/laravel-translatable/blob/master/Screenshot%20(91).png)
+
+![alt text](https://github.com/mohammadaktaa1995/laravel-translatable/blob/master/Screenshot%20(92).png)
+
+![alt text](https://github.com/mohammadaktaa1995/laravel-translatable/blob/master/Screenshot%20(93).png)
